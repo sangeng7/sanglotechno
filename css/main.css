@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul a {
+  text-decoration: none;
+}
+
+.bg1 {
+  background: url("https://sangalotech.com/html/10/assets/images/hero-bg.jpg");
+  background-size: 115%;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 1200px;
+  }
+}
+.nav-item {
+  padding: 5px 15px;
+}
+
+.button {
+  border: 2px solid white;
+  color: white;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.banner h1 {
+  color: rgb(0, 255, 153);
+  font-size: 70px;
+}
+.banner h2 {
+  font-size: 56px;
+}
+.banner .banner-text ul li {
+  gap: 20px;
+}
+.banner .banner-image {
+  -webkit-animation: hhh 15s linear infinite;
+          animation: hhh 15s linear infinite;
+}
+@-webkit-keyframes hhh {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes hhh {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.bg2 {
+  background-color: hsl(213deg, 86%, 16%);
+  padding: 90px 0;
+}
+.bg2 .info-h1 {
+  color: rgb(0, 255, 153);
+}
+
+.bg3 {
+  background: url(https://sangalotech.com/html/10/assets/images/service-bg.jpg);
+  background-size: cover;
+  padding: 90px 0;
+}
+.bg3 .box {
+  background-color: rgba(6, 37, 76, 0.5);
+  border-radius: 10px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.bg3 .box:hover {
+  background-color: white;
+  color: black;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.bg4 {
+  background-color: hsl(213deg, 86%, 16%);
+  padding: 90px 0;
+}
+.bg4 .info-h2 {
+  color: rgb(0, 255, 153);
+  font-size: 18px;
+}
+
+.boxes {
+  background-color: rgba(6, 37, 76, 0.5);
+  border-radius: 0;
+  padding: 8px;
+}
+.boxes .card-sub-body {
+  border-top: 1px solid rgba(236, 240, 243, 0.2);
+}
+.boxes table {
+  width: 100%;
+}
+.boxes table td {
+  border: 1px solid rgba(236, 240, 243, 0.2);
+}
+.boxes table .a {
+  padding: 0px 20px;
+}
+.boxes table .b {
+  padding: 15px 78px 15px 20px;
+}
+
+.circle1 {
+  position: relative;
+  padding-top: 50px;
+}
+.circle1 p {
+  position: absolute;
+  padding: 2px 10px;
+  background-color: rgb(0, 255, 153);
+  border-radius: 50%;
+  border: 3px solid hsl(213deg, 86%, 16%);
+  bottom: 119px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 40%;
+}
+
+.bg5 {
+  background-color: hsl(213deg, 81%, 25%);
+  padding: 90px 0px;
+}
+.bg5 .boxes-2 .box-text-1 {
+  background-color: hsl(210deg, 100%, 20%);
+  width: 100%;
+}
+.bg5 .boxes-2 .box-text-1 h5:hover {
+  color: rgb(244, 65, 95);
+}
+.bg5 .boxes-2 .box-text-2 {
+  background-color: hsl(210deg, 100%, 20%);
+  border-top: 1px solid rgba(236, 240, 243, 0.2);
+  font-weight: bold;
+}
+
+.bg6 {
+  background: url(https://sangalotech.com/html/10/assets/images/service-bg.jpg);
+  background-size: cover;
+  padding: 90px 0 0 0;
+}
+.bg6 .foot {
+  padding-bottom: 80px;
+  border-bottom: 1px solid rgba(236, 240, 243, 0.2);
+}
+
+.sticky {
+  position: sticky;
+  width: 1200px;
+  top: 0;
+  color: #fff;
+  background-color: hsl(210deg, 100%, 20%);
+  z-index: 99;
+}/*# sourceMappingURL=main.css.map */
